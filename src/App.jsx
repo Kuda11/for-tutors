@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import styles from './App.module.scss'
+import SignUpPage from './components/SignUpPage'
+import Routes from './containers/Routes'
+
+import { Button } from 'semantic-ui-react'
 
 function App() {
   return (
-    <div className={styles.body} >
-      I am working
-    </div>
+    <>
+    <section>
+      <Routes />
+    </section>
+    </>
   );
 }
 
